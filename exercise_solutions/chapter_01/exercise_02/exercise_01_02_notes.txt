@@ -9,8 +9,8 @@ program returns 1.
 
 The program was compiled with GCC version 7.2.0 on a computer running Ubuntu 
 Linux. The program does not really do anything so there was no output or other 
-action when the program was executed. The failure indicator did not caunse
-anything special to happen.
+action when the program was executed. The returned failure indicator did not 
+cause anything special to happen.
 
 The return code of the program (1) was printed in the terminal when the 
 following command was excuted after running the program:
