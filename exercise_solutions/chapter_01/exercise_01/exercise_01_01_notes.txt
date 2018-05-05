@@ -22,7 +22,7 @@ The program does not really do anything so there was no output or other action
 when the program was executed.
 
 The return code of the program (0) was printed when the following command was 
-run after running the program:
+executed after running the program:
 
 $ echo $?
 
