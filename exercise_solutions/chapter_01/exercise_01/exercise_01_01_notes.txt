@@ -2,21 +2,27 @@
 - Exercise 1.1 Notes -
 ----------------------
 
-Objective of this exercise is to get basic understanding on how to compile a simple program. The source code for the program can be found in the folder that this document is located in.
+Objective of this exercise is to get basic understanding on how to compile a 
+simple program. The source code for the program can be found in the folder that 
+this document is located in.
 
-The program was compiled with GCC version 7.2.0 on a computer running Ubuntu Linux.
+The program was compiled with GCC version 7.2.0 on a computer running Ubuntu 
+Linux.
 
-The following command was used to compile the code in a terminal window.
+The following command was used to compile the code in a terminal window:
 
 $ g++ exercise_01_01_main.cpp
 
-This produced a file called a.out that is a executable file. The program was run by typing.
+This produced a file called a.out that is a executable file. The program was 
+then run by typing the following command:
 
-./a.out
+$ ./a.out
 
-The program does not really do anything so there was no output or other action.
+The program does not really do anything so there was no output or other action
+when the program was executed.
 
-The return code (0) was printed when the following command was run after running the program.
+The return code of the program (0) was printed when the following command was 
+run after running the program:
 
 $ echo $?
 
