@@ -1,0 +1,20 @@
+----------------------
+- Exercise 1.6 Notes -
+----------------------
+
+The following code fragment is not legal:
+
+std::cout << "The sum of " << v1;
+          << " and " << v2;
+          << " is " << v1 + v2 << std::endl;
+
+The problem is that there is only one operand provided to some of the << 
+operators. The << operator takes two operands, and the left-hand operand must be
+an ostream object.
+
+An example of a corrected code fragment that is legal is the following:
+
+std::cout << "The sum of " << v1;
+std::cout << " and " << v2;
+std::cout << " is " << v1 + v2 << std::endl;
+
