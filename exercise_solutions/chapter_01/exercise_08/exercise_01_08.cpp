@@ -1,4 +1,4 @@
-// Investigation about if different output statements are legal or not
+// Investigation about if some output statements with comments are legal or
 
 #include <iostream>
 
@@ -11,7 +11,7 @@ int main()
 	std::cout << "*/";
 
 	// next print statement does not compile
-	// unclear what was attempted to be printed
+	// unclear what was intended to be printed so will not attempt to correct it
 	// std::cout << /* "*/" */;
 
 	// prints a space followed by /* and then another space
