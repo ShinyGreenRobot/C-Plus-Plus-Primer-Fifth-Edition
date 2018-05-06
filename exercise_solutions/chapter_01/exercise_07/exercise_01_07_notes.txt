@@ -8,6 +8,7 @@ The following code fragment has incorrectly nested comments:
 /* Print hello world*/
 std::cout << "Hello, World" << std::endl;
 */
+return 0;
 
 This will not compile, the exact error statements depends on the rest of the
 code base. The following error was presented when trying to compile a program
