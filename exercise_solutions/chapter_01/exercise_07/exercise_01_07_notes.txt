@@ -1,0 +1,24 @@
+----------------------
+- Exercise 1.7 Notes -
+----------------------
+
+The following code fragment has incorrectly nested comments:
+
+/* Deactivate print
+/* Print hello world*/
+std::cout << "Hello, World" << std::endl;
+*/
+
+This will not compile, the exact error statements depends on the rest of the
+code base. The following error was presented when trying to compile a program
+included the above code fragment:
+
+Description                                     Type
+expected primary-expression before ‘return’     /C++ Problem
+
+Note that the compiler, in this case GCC, also issued a warning that identifies
+the problem:
+
+Description               Type
+"/*" within comment       C/C++ Problem
+
