@@ -1,0 +1,15 @@
+It is a common error to forget the semicolon after a class or struct definiton. The following program suffers from this error.
+
+struct Foo {
+    // empty on purpose
+}
+
+int main()
+{
+    return 0;
+}
+
+This code causes the following error when compiling with GCC version 5.4.0 so.
+
+expected ‘;’ after struct definition
+
