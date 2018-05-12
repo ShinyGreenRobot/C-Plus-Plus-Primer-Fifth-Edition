@@ -9,7 +9,7 @@ int main()
     return 0;
 }
 
-This code causes the following error when compiling with GCC version 5.4.0 so.
+This code causes the following error when compiling with GCC version 5.4.0.
 
 expected ‘;’ after struct definition
 
