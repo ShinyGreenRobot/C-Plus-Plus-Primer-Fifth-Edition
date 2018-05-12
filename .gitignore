@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# Folder with source code downloaded from book web site
+/book_source/
+
